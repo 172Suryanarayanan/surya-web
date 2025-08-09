@@ -89,10 +89,22 @@
       margin-bottom: 25px;
     }
 
-    .hero-buttons {
-      display: flex;
-      gap: 15px;
-    }
+   .hero-buttons a {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.hero-buttons .btn-primary {
+  background-color: #ff4c1d;
+  color: white;
+}
+
+.hero-buttons .btn-secondary {
+  border: 1px solid #aaa;
+  background-color: white;
+  color: #000;
+}
 
     .btn-primary {
       background-color: #ff4c1d;
@@ -172,9 +184,9 @@
       <p>
         I’m Suryanarayanan V, a passionate B.Tech student specializing in Artificial Intelligence, Machine Learning, and Full Stack Web Development at St. Joseph’s College of Engineering. I thrive at the intersection of AI, IoT, data science, and modern web technologies, with hands-on experience in building smart ML systems and scalable, user-friendly web applications. My expertise spans deep learning, NLP, reinforcement learning, and prompt engineering, alongside front-end and back-end development using HTML, CSS, JavaScript, React, Node.js, and databases like MySQL and MongoDB. I’ve worked with tools like PyTorch, TensorFlow, OpenCV, and YOLO, and have developed end-to-end solutions—from predictive maintenance in automobiles to AI-driven speech-to-text platforms. My internships at leading companies gave me real-world exposure in both AI model deployment and full stack architecture design. As a multiple-time hackathon finalist, I’m driven to create technology that not only works but delivers meaningful, real-world impact.</p>
       <div class="hero-buttons">
-        <button class="btn-primary">About Me ➞</button>
-        <button class="btn-secondary">Download CV ⬇</button>
-      </div>
+  <a href="about.html" class="btn-primary" style="display:inline-block; text-align:center; text-decoration:none;">About Me ➞</a>
+  <a href="data/surya resume.pdf" class="btn-secondary" download style="display:inline-block; text-align:center; text-decoration:none;">Download CV ⬇</a>
+</div>
     </div>
 
     <div class="hero-image">
@@ -191,6 +203,7 @@
 
 </body>
 </html>
+
 
 
 
